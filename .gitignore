@@ -1,0 +1,12 @@
+# video and render output never belongs in this repo
+*.mp4
+*.mov
+*.webm
+*.m4a
+*.wav
+.preview/
+.hyperframes/
+snaps/
+renders/
+compositions/
+.DS_Store

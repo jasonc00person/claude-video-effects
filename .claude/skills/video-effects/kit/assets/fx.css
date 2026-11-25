@@ -1,0 +1,12 @@
+/* Fonts. All free (SIL Open Font License, the licence files sit next to them in assets/fonts).
+   In code, use the names in FX.font (fx.js): FX.font.sans, .mono, .hand, .italic, plus two that use what your computer has:
+   .serif (a magazine serif: Didot on a Mac) and .poster (a tall poster face: Impact). */
+@font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Regular.otf'); font-weight: 400; }
+@font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Bold.otf'); font-weight: 700; }
+@font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Black.otf'); font-weight: 900; }
+@font-face { font-family: 'JetBrains Mono'; src: url('assets/fonts/JetBrainsMono-VF.ttf'); font-weight: 100 800; }
+@font-face { font-family: 'Caveat'; src: url('assets/fonts/Caveat-VF.ttf'); font-weight: 400 700; }
+@font-face { font-family: 'Playfair Display'; src: url('assets/fonts/PlayfairDisplay-Italic-VF.ttf'); font-style: italic; font-weight: 400 900; }
+* { box-sizing: border-box; }
+#root { overflow: hidden; -webkit-font-smoothing: antialiased; }
+.fill { position: absolute; left: 0; top: 0; object-fit: cover; }
